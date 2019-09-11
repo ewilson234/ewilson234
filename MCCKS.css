@@ -5,3 +5,82 @@ body,html{
     background-color: rgb(240, 241, 255);
 }
 
+.topbar{
+    width: 100%; 
+    height: 150px; 
+    background-color: rgb(255, 255, 225); 
+    z-index: 100;
+}
+
+.searchbar{
+    width: 100%; 
+    height:150px; 
+    background-color: rgb(43, 114, 165); 
+}
+
+.section1{
+    width: 100%; 
+    height: 1000px; 
+    background-color: rgb(59, 125, 154)
+}
+
+.section2{
+    width: calc(100% - 40px); 
+    height: 700px; 
+    padding: 60px 20px 200px 20px; 
+    background-color: rgb(137, 159, 190);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 10px; 
+    grid-row: 1em; 
+}
+
+.picture{
+     
+    height: 300px; 
+    background-color: rgb(9, 20, 69);
+}
+
+.section3{
+    width: 100%; 
+    height: 1300px; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-column-gap: 8px; 
+    margin: auto, 10px, auto, 10
+}
+
+.video{
+    height: 600px; 
+    background-color: rgb(24, 59, 155);
+}
+
+.getinvolved{
+    height: 600px; 
+    background-color: rgb(142, 161, 239);
+}
+
+.section4{
+    width: 100%; 
+    height: 599px;
+    background-color: rgb(100, 103, 188); 
+}
+
+.quickresoures{
+    width: 100%; 
+    height: 1200px; 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-column-gap: 12px; 
+    grid-row: 1em; 
+}
+
+.map{
+    height: 1000px; 
+    background-color: rgb(103, 167,232); 
+}
+
+.soicalmedia{
+    height: 900px; 
+    background-color: rgb(43, 149, 168);
+}
