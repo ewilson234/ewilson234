@@ -1,0 +1,7 @@
+body,html{
+    padding:0;
+    margin: 0;
+    display: grid;
+    background-color: rgb(240, 241, 255);
+}
+
