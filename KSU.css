@@ -1,0 +1,75 @@
+body,html{
+    padding:0;
+    margin: 0;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+}
+
+.tabs{
+    height: 200px; 
+    margin-top: 10px; 
+    background-color: rgb(162, 146, 177);
+    margin-bottom: 20px; 
+}
+
+.picturelab{
+    height: 900px; 
+    background-color: rgb(178, 128, 196);
+    margin-bottom: 20px; 
+}
+
+.events{
+    height: 900px; 
+    background-color: rgb(131, 93,155); 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-column-gap: 3px; 
+}
+
+.picture{
+    height: 300px; 
+    background-color: rgb(239, 219, 156);
+    margin: 20px 60px 60px 10px;
+}
+
+.news{
+    height: 898px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-column-gap: 8px;
+}
+
+.picture2{
+    height: 300px; 
+    background-color: rgb(239, 219, 156);
+    margin: 20px 60px 60px 10px;
+}
+
+.texturebox{
+    height: 150px; 
+    background-color: rgb(216, 196, 130);
+}
+
+.plans{
+    height: 400px; 
+    background-color: rgb(68, 31, 78); 
+}
+
+.box{
+    height: 920px; 
+    background-color: rgb(230, 154, 222); 
+}
+
+.campueses{
+    height: 900px; 
+    background-color: rgb(105, 34, 157); 
+}
+
+.capturekstate{
+    height: 1000px;
+}
+
+.footer{
+    height: 689px; 
+    background-color: rgb(121, 77, 149); 
+}
