@@ -26,8 +26,27 @@ body,html{
     margin-bottom: 8px; 
 }
 
+.textbox{
+    height: 300px; 
+    background-color: rgb(80, 60, 185);
+    margin: 200px 300px 200px 300px;
+}
+
 .gray{
-    height: 3000px; 
+    height: 3000px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-column-gap: 8px; 
+}
+
+.picture2{
+    height: 600px; 
+    background-color: rgb(201, 45, 35);
+}
+
+.brownbox{
+    height: 600px;
+    background-color: rgb(46, 34, 3);
 }
 
 .footer{
