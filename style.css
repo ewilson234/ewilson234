@@ -44,6 +44,23 @@ img{
 }
 
 
+/*------workpage--------*/
+
+.title2{
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    font-weight: 700;
+    font-style: normal; 
+    font-size: 100px;
+}
+
+.design{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0em; 
+}
+
+
+
 
 
 
