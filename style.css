@@ -17,14 +17,32 @@ img{
     font-style: normal;
 }
 
-
-
 .menu{
     width: 100%; 
     height: 46px;
     background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 56px 58px 60px;
+    grid-column-gap: 0em;  
 }
 
+.menu p{
+    color: white; 
+}
+
+.title p{
+    font-size: 100px;
+    text-align: center;
+}
+
+.work{
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-template-rows: 3fr; 
+    grid-column-gap: 0em; 
+    grid-row-gap: 0em; 
+    background-color: teal;
+}
 
 
 
