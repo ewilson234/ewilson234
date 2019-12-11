@@ -1,0 +1,11 @@
+<div class="work">
+
+
+  {% for post in postslist %}
+       <div class="image">
+          <a href="{{ post.url | url }}">
+            <img src="{{ post.data.featured_image | url }}" alt="">
+          </a>
+         </div>
+  {% endfor %}
+</div>

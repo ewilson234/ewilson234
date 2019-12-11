@@ -11,6 +11,15 @@ img{
     max-width: 100%;
 }
 
+a{
+    font-family: itc-avant-garde-gothic-pro, sans-serif;
+    color: white
+}
+
+a:hover{
+    color: rgb(124, 126, 166);
+}
+
 .title{
     font-family: itc-avant-garde-gothic-pro, sans-serif;
     font-weight: 700;
@@ -43,6 +52,10 @@ img{
     grid-row-gap: 0em; 
 }
 
+.image{
+    height:200px; 
+}
+
 
 /*------workpage--------*/
 
@@ -63,6 +76,32 @@ img{
 .design p{
     text-align: right;
 }
+
+.text{
+    padding-top: 300px; 
+}
+
+
+.more{
+    width: 50%;
+    margin: auto;
+}
+
+
+/*------bio--------*/
+
+.image6{
+    width: 50%; 
+    margin: auto;
+}
+
+.para{
+    text-align: center;
+}
+
+
+
+
 
 
 
