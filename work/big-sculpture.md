@@ -16,6 +16,4 @@ support_images:
  - "/img/61_3-warnick-greece-show.jpg"
  - "/img/61_4-warnick-greece-show.jpg"
  - "/img/placeholder2.jpg"
-eleventyNavigation:
-  key: Dog dreams 
 ---
