@@ -1,0 +1,67 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+
+
+<div class="title2">
+            <p>Book covers</p>
+    </div>
+    <div class="design">
+        <div class="text">
+            <p>These are 4 book covers from a 10 book series.</p>
+            <p>I wanted to create book covers where it can help freshman in college</p>
+            <p>research on what type of design major they wanted to explore.</p>
+            <p>I use the pink to spark intrest and use elements to point out main tools use in the design major. .</p>
+        </div>
+        <div class="image2">
+            <img src="{{ featured_image | url }}" />
+        </div>
+    </div>
+    <div class="more">
+        {% for image in support_images %}
+            <img src="{{ image | url }}">
+        {% endfor %}
+    </div>
+
+<!--
+<div class="work__title">
+    {{ title | upper }}
+</div>
+
+
+<div class="work__layout">
+    <div class="work__featured_image">
+        <img src="{{ featured_image | url }}" />
+    </div>
+    <div>
+        <h4>
+            {{ year }}
+        </h4>
+        <h4>
+            {{ type }}
+        </h4>
+        <h4>
+            {{ materials }}
+        </h4>
+        <h5>
+            {{ description }}
+        </h5>
+
+        {% for tag in tags %}
+            {%- if tag != "posts" -%}
+                {% set tagUrl %}/work/{{ tag }}/{% endset %}
+                <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+            {%- endif -%}
+        {% endfor %}
+
+        <div class="work__support_images">
+            {% for image in support_images %}
+                <img src="{{ image | url }}">
+            {% endfor %}
+        </div>
+        
+
+    </div>
+</div>
+-->

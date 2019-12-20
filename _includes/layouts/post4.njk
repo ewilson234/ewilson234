@@ -1,0 +1,67 @@
+---
+layout: layouts/base.njk
+templateClass: tmpl-post
+---
+
+
+<div class="title2">
+            <p>Legibility and Type</p>
+    </div>
+    <div class="design">
+        <div class="text">
+            <p>This is a book about legibility and type that I design.</p>
+            <p>My focus was to give big examples and easy to flip to find information.</p>
+            <p>I first started by reading the text of the book and then sketching different ideas.</p>
+            <p>From there I was able to design the book.</p>
+        </div>
+        <div class="image2">
+            <img src="{{ featured_image | url }}" />
+        </div>
+    </div>
+    <div class="more">
+        {% for image in support_images %}
+            <img src="{{ image | url }}">
+        {% endfor %}
+    </div>
+
+<!--
+<div class="work__title">
+    {{ title | upper }}
+</div>
+
+
+<div class="work__layout">
+    <div class="work__featured_image">
+        <img src="{{ featured_image | url }}" />
+    </div>
+    <div>
+        <h4>
+            {{ year }}
+        </h4>
+        <h4>
+            {{ type }}
+        </h4>
+        <h4>
+            {{ materials }}
+        </h4>
+        <h5>
+            {{ description }}
+        </h5>
+
+        {% for tag in tags %}
+            {%- if tag != "posts" -%}
+                {% set tagUrl %}/work/{{ tag }}/{% endset %}
+                <a href="{{ tagUrl | url }}" class="tag">{{ tag }}</a>
+            {%- endif -%}
+        {% endfor %}
+
+        <div class="work__support_images">
+            {% for image in support_images %}
+                <img src="{{ image | url }}">
+            {% endfor %}
+        </div>
+        
+
+    </div>
+</div>
+-->
