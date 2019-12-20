@@ -4,16 +4,14 @@ tags:
  - work
  - "2020"
  - print
-title: Design
-type: Calendar
+title: Calendar
+type: Graphic Design 
 year: "2020"
-featured_image: "/img/placeholder2.jpg"
+featured_image: "/img/caladern_wilsonemily2019.jpg"
 materials: hammermill paper
 description: a calendar that has dog dreams in them
 support_images:
- - "/img/61_1-warnick-greece-show.jpg"
- - "/img/61_2-warnick-greece-show.jpg"
- - "/img/61_3-warnick-greece-show.jpg"
- - "/img/61_4-warnick-greece-show.jpg"
- - "/img/placeholder2.jpg"
+ - "/img/caladern_wilsonemily2019.jpg"
+ - "/img/caladern4_wilsonemily2019.jpg"
+ - /img/caladern5_wilsonemily2019.jpg
 ---
