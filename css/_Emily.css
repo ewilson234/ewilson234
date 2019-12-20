@@ -35,10 +35,6 @@ a:hover{
     grid-column-gap: 0em;  
 }
 
-.menu p{
-    color: white; 
-}
-
 .title p{
     font-size: 100px;
     text-align: center;
